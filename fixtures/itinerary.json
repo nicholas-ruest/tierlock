@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "itinerary_id": "demo-route-001",
+  "tenant_id": "acme",
+  "workload_id": "vision-policy-7",
+  "state_epoch": 42,
+  "model_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "runtime_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "allowed_zones": ["device", "edge", "cloud"],
+  "require_attestation": true,
+  "max_total_latency_ms": 250,
+  "expires_at_ms": 1893456000000,
+  "permitted_action": "read_only",
+  "fallback": "safe_stop",
+  "nonce": "demo-nonce-001"
+}
